@@ -1,0 +1,8 @@
+version: "1"
+services:
+  - type: web
+    name: griha-app
+    env: docker
+    region: oregon
+    plan: free
+    branch: main
